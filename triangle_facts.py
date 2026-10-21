@@ -13,7 +13,7 @@ def input_rel():
     return { (i, j) for i in range(num_nodes) for j in range(num_nodes) if coin() }
 
 def hash_rel():
-    return { (random.randint(0, N-1), random.randint(0, N-1), random.randint(0, N-1)) for _ in range(num_nodes) }
+    return { (random.randint(0, num_nodes-1), random.randint(0, num_nodes-1), random.randint(0, num_nodes-1)) for _ in range(num_nodes) }
 
 # into NxN pieces
 def shard(rel):
