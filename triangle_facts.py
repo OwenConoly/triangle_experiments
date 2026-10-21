@@ -39,4 +39,6 @@ def format_sharded_input(input_name):
 
 output = format_sharded_input("R") + format_sharded_input("S") + format_sharded_input("T") + format_rel("Hash", hash_rel())
 
-print(output)
+import json
+
+print(json.dumps(output))
