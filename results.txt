@@ -1,4 +1,4 @@
-format is (2-shard on 3x3 grid) / (1-shard on 1x1 grid)
+format is (1-shard on 1x1 grid) / (2-shard on 3x3 grid)
 
 100 nodes: 377940 / 81456 = 4.6398055391868
 200 nodes: 3083903 / 515171 = 5.986173522966161
@@ -7,5 +7,3 @@ format is (2-shard on 3x3 grid) / (1-shard on 1x1 grid)
 500 nodes: 46954561 / 6734583 = 6.972155662793079
 600 nodes: 81440573 / 11402138 = 7.142570367066247
 700 nodes: 129644035 / 17959994 = 7.218489883682589
-
-
